@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=bluejeans
+notes: >-
+  BlueJeans (by Verizon) was a cloud video-conferencing company; the service was
+  discontinued and bluejeans.com no longer resolves to a live web/developer surface.
+  Its published npm packages persist in the registry. Only bluejeans-webrtc-embed-sdk
+  is verified first-party (published under the sdk-wizards@bluejeans.com maintainer).
+packages:
+  - language: javascript
+    registry: npm
+    name: bluejeans-webrtc-embed-sdk
+    url: https://www.npmjs.com/package/bluejeans-webrtc-embed-sdk
+    install: npm install bluejeans-webrtc-embed-sdk
+    version: 2.2.0
+    released: '2023-06-23'
+    official: true
+    source: maintainer sdk-wizards@bluejeans.com
+    description: BlueJeans WebRTC Embed SDK for embedding BlueJeans video into web apps.
+  - language: javascript
+    registry: npm
+    name: bluejeans-api-rest-onvideo
+    url: https://www.npmjs.com/package/bluejeans-api-rest-onvideo
+    install: npm install bluejeans-api-rest-onvideo
+    official: false
+    source: community (maintainer lukedawilson)
+    description: Community JavaScript client for the BlueJeans onVideo REST API.

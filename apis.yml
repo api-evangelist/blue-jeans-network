@@ -1,11 +1,33 @@
 aid: blue-jeans-network
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-jeans-network.png
 name: Blue Jeans Network
-description: 'Blue Jeans Network is a company surfaced as a portfolio company of accel, battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Blue Jeans Network (later BlueJeans by Verizon) was a cloud-based video
+  conferencing company founded in 2009 in Mountain View / San Jose, California.
+  It delivered interoperable video meetings across desktop, mobile, and
+  conference-room systems, and offered a developer surface that included the
+  onVideo/Meetings REST API and a WebRTC Embed SDK for embedding live video into
+  applications. Verizon acquired BlueJeans in 2020; Verizon subsequently
+  discontinued the BlueJeans service and the bluejeans.com website and developer
+  portal are no longer reachable. This profile preserves the company's published
+  package artifacts, which persist in public registries even though the hosted
+  service is retired. Originally surfaced as a portfolio company of Accel and
+  Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/blue-jeans-network/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: discontinued
 x-backed-by:
 - accel
 - battery-ventures
@@ -13,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Video Conferencing
+- Communications
+- WebRTC
+- Collaboration
+- Meetings
+- Discontinued
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,12 @@ maintainers:
 common:
 - type: Website
   url: http://www.bluejeans.com
+- type: Packages
+  url: packages/blue-jeans-network-packages.yml
+- type: SDKs
+  url: packages/blue-jeans-network-packages.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
